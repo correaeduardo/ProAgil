@@ -22,6 +22,7 @@ export class EventosComponent implements OnInit {
   eventosFiltrados: Evento[];
   eventos: Evento[];
   evento: Evento;
+  tema: Event;
   modoSalvar = 'post';
 
   imagemLargura = 50;
